@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('izin', function (Blueprint $table) {
+        Schema::create('absen', function (Blueprint $table) {
             $table->id();
             $table->string('nama_karyawan'); //cara connectnya belum tau
             $table->datetime('tanggal_masuk')->nullable();
